@@ -1,0 +1,118 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass[letterpaper]{twentysecondcv}
+\setlength{\oddsidemargin}{2.25in}
+\setlength{\topmargin}{-0.65in}
+\usepackage{enumitem}
+
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\profilepic{alec} 
+
+\cvname{Alec Yu} 
+\cvjobtitle{Software Engineer}
+\cvaddress{N54W14367 Vera Lane\newline Menomonee Falls, WI 53051} 
+\cvnumberphone{414-915-9858} 
+\cvsite{github.com/alecyuverymuch} 
+\cvmail{alecxisxhere@gmail.com} 
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 
+\skills{{C, GO, Javascript/4},{Matlab, Python, SQL/5},{Java, C\#, PowerShell/6}}
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{itemize}
+\item[]
+	\ressubheading{University of Wisconsin - Madison}{Madison, WI}{College of Letters and Sciences}{Aug. 2014 - May. 2018\vspace{1.7mm}}\newline
+	\begin{tabular*}{4.5in}{l@{\extracolsep{\fill}}r}\vspace{1mm}
+		\hspace{-6.5mm} Bachelor's in Computer Science & \textit{GPA: 3.24}\vspace{-1.5mm} \\
+		\vspace{-1mm}\hspace{-6.5mm} Minor in Mathematics & \*
+	\end{tabular*}
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\begin{itemize}
+\item[]
+	\ressubheading{Johnson Controls Inc.}{Milwaukee, WI}{Software Engineer}{May. 2017 - Now}\newline\vspace{-2mm}
+		\begin{itemize}[leftmargin=1mm, rightmargin=7mm]\textit{\vspace{-1.5mm}\hspace{-6mm}Advanced Development (Internship) --- Central Plant Optimization:}
+			\resitem{\vspace{-1mm}Learned under senior developers to acquire knowledge in collaborative software product development such as the Agile Development workflow and writing maintainable, peer-reviewed code.}
+			\resitem{\vspace{-0.5mm}Contributed to an ASP.NET Web Application running a model-predictive control software for energy plant management and optimization.}
+			\resitem{\vspace{-0.5mm}Established a small-scale demo environment for marketing use.} 
+		\end{itemize}\vspace{-0.5mm}
+		
+		\textit{\vspace{-1.5mm}\hspace{-6mm}Advanced Development --- Metasys Modernization:}
+		\begin{itemize}[leftmargin=1mm, rightmargin=7mm]
+			\resitem{\vspace{-1mm}Executed a Proof of Concept project involving redesigning a monolithic legacy product into a micro-services architecture.}
+			\resitem{\vspace{-0.5mm}Containerized third-party services with Docker/Kubernetes.}
+			\resitem{\vspace{-0.5mm}Implemented a new DAL with RPC and REST APIs for communicating time series data with other containerized services.}
+		\end{itemize}\vspace{-0.5mm}
+		
+		\textit{\vspace{-1.5mm}\hspace{-6mm}Advanced Development --- Variable Refrigerant Flow Calculation Platform:}
+		\begin{itemize}[leftmargin=1mm, rightmargin=7mm]
+			\resitem{\vspace{-1mm}Developed a cloud-based data platform for a model-predictive control application managing HVAC systems with Microsoft Azure.}
+			\resitem{\vspace{-0.5mm}Utilizing multiple Azure resources, deployed a scalable cloud hosted\\platform for storing customer site models, managing equipment data, and running optimization algorithms.}
+			\resitem{\vspace{-0.5mm}Designed equipment health monitoring pages and data trend graph\\elements in the ASP.NET Web Application UI.}
+		\end{itemize}\vspace{-0.5mm}
+		
+		\textit{\vspace{-1.5mm}\hspace{-6mm}Johnson Controls - Hitachi, IoT Development --- Air Cloud Pro/Home}
+		\begin{itemize}[leftmargin=1mm, rightmargin=7mm]
+			\resitem{\vspace{-1mm}Coordinated with overseas development teams in China, Japan, and India to launch a collaboration project.}
+			\resitem{\vspace{-0.5mm}Engineered an AWS based IoT Hub for a cross-platform application for monitoring and controlling HVAC systems.}
+			\resitem{\vspace{-0.5mm}Implemented a data collection and streaming service leveraging resources from AWS such as Fargate, Kafka, Kinesis, and Lambda.}
+		\end{itemize}
+		
+
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	 Projects
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+
+\begin{itemize}
+\item[]
+	\ressubheading{Squirelfeed}{Madison, WI}{Startup Project}{Mar. 2016 - Oct. 2016}
+	\begin{itemize}[leftmargin=-3mm, rightmargin=7mm]
+		\resitem{Initiated a startup business providing an online platform to connect local chefs and small businesses to students on the UW Madison campus.}
+		\resitem{\vspace{-1mm}Motivated by students away from home who miss a home-cooked meal.}
+		\resitem{\vspace{-1mm}Applied Bootstrap and Ruby on Rails to create a web store.}
+	\end{itemize}
+\item[]
+	\ressubheading{Security and Privacy Using Blockchain}{Madison, WI}{UW Madison Internet of Things Lab}{Aug. 2016 - Dec. 2016}
+	\begin{itemize}[leftmargin=-3mm, rightmargin=7mm]
+		\resitem{Demonstrated Blockchain's decentralization, node consensus, data integrity, and immutability utilizing IBM's Bluemix Blockchain network.}
+		\resitem{\vspace{-1mm}Deployed Chaincode written in GO with Hyperledger Fabric to simulate the communications of IoT devices as transactions in the Blockchain ledger.}
+	\end{itemize}
+
+
+\end{itemize}
+
+\end{document} 
