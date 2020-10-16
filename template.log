@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  13 OCT 2020 18:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 OCT 2020 20:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1075,9 +1075,9 @@ LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/n' will be
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/it' will be
 (Font)              scaled to size 10.0pt on input line 48.
 
-Overfull \hbox (5.20845pt too wide) in paragraph at lines 88--89
-[]\T1/ClearSans-LF/m/sc/10 Implemented a data col-lec-tion and stream-ing ser-v
-ice lever-ag-ing re-sources
+Overfull \hbox (1.79175pt too wide) in paragraph at lines 88--89
+[]\T1/ClearSans-LF/m/sc/10 Engineered an AWS hosted IoT Hub for a cross-platfor
+m ap-pli-ca-tion which
  []
 
 
@@ -1105,7 +1105,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  26058 strings out of 493014
  508710 string characters out of 6133351
- 574427 words of memory out of 5000000
+ 574428 words of memory out of 5000000
  29209 multiletter control sequences out of 15000+600000
  67863 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1117,7 +1117,7 @@ b></usr/local/texlive/2016/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Ita
 lic.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/intel/clearsans/ClearSa
 ns-Regular.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/marvosym/
 marvosym.pfb>
-Output written on template.pdf (1 page, 158948 bytes).
+Output written on template.pdf (1 page, 158825 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
