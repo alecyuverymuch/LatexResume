@@ -224,7 +224,7 @@
 			\resitem{CS 540 - Artificial Intelligence}\vspace{-0.5mm}
 			\resitem{CS 564 - Database Management Systems}\vspace{-0.5mm}
 			\resitem{CS 577 - Algorithms}\vspace{-0.5mm}
-			\resitem{ENG 601 - Internet of Things Lab}\vspace{-1.5mm}
+			\resitem{ENGR 601 - Internet of Things Lab}\vspace{-1.5mm}
 		\end{itemize}
 			
 		\normalsize \hspace{-1mm}\textbf{Languages:}
